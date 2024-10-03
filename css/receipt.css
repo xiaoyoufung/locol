@@ -1,0 +1,112 @@
+
+#Receipt {
+    display: flex;
+    flex-direction: column;
+    width: 1188px;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+#Receipt .receipt-container {
+    padding: 3% 4% 6.5% 4%;
+    width: 400px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+#Receipt .receipt-container h1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+#Receipt .receipt-cust h4, .cust-address {
+    font-size: 12px;
+    font-weight: 500;
+    margin: 6% 0 1% 0;
+}
+
+#Receipt .receipt-cust p {
+    font-size: 8px;
+    color: #5F5F5F;
+}
+
+#Receipt .product-table-container, #Receipt .cust-total-row, #Receipt .total-cust {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#Receipt .product-table-container p, #Receipt .product-cust h5 {
+    font-size: 10px;
+}
+
+#Receipt .product-cust {
+    margin-top: 8%;
+}
+
+#Receipt .product-table {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+    align-items: center;
+}
+
+#Receipt .product-table img {
+    width: 80px;
+    object-fit: cover;
+}
+
+#Receipt .product-table-container h4 {
+    font-size: 12px;
+}
+
+#Receipt .cust-total-row {
+    font-size: 11px;
+    width: 100px;
+    height: 30px;
+}
+
+#Receipt .total-cust {
+    margin-top: 5%;
+}
+
+#Receipt .total-cust .head {
+    font-size: 11px;
+    color: #9DA3A7;
+    margin-bottom: 12%;
+}
+
+#Receipt .total-cust .cust-total-row .left {
+    color: #9DA3A7;
+    font-size: 10px;
+}
+
+#Receipt .return-btn {
+    color: #9DA3A7;
+    padding: 10px 20px;
+    margin-top: 3%;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 2px solid #9DA3A7;
+    font-weight: 600;
+    font-size: 10px;
+}
+
+#Receipt .go-back {
+    font-size: 10px;
+    color: #E28F83;
+    font-weight: 600;
+    margin: 2% 0 4% 33%;
+}
+
+#Receipt .go-back a {
+    color: #E28F83;
+    text-decoration: none;
+}
+
+#Receipt .product-cust h5 {
+    margin-bottom: 3%;
+}

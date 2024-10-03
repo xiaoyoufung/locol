@@ -1,0 +1,211 @@
+#checkout {
+    width: 1188px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+/* left */
+
+#checkout .left {
+    margin-top: 4%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 560px;
+}
+
+#checkout .left .summary-des {
+    font-size: 10px;
+    width: 310px;
+    color: #9DA3A7;
+    margin: 1% 0 3% 0;
+}
+
+#checkout .display-product {
+    width: 440px;
+    background-color: #EDEFF4;
+    display: flex;
+    flex-direction: row;
+    padding: 4% 4%;
+    align-items: center;
+    border-radius: 5px;
+    border: 0.5px solid #9DA3A7;
+}
+
+#checkout .display-product img, #checkout .shipping img{
+    width: 99px;
+    height: 65px;
+    object-fit: cover;
+}
+
+#checkout .display-product .product-description {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 60px;
+    margin-left: 5%;
+    justify-content: space-between;
+}
+
+#checkout .display-product .product-description .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#checkout .display-product .product-description p {
+    color: #9DA3A7;
+    font-size: 10px;
+}
+
+
+
+/* shipping method */
+#checkout .shipping h3 {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.shipping .international {
+    font-size: 12px;
+    color: #7E8487;
+}
+
+.shipping .international p {
+    margin-top: 5%;
+}
+
+#thaipost {
+    background-color: #EDEFF4;
+    padding: 3% 4%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    width: 100%;
+    margin: 3% 0;
+}
+
+#thaipost label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+#thaipost .option {
+    display: flex;
+    align-items: center;
+}
+
+.thaipost-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.thaipost-left .des {
+    margin-left: 8%;
+    width: 150px;
+}
+
+.thaipost-left b {
+    font-size: 12px;
+    font-weight: 600;
+    color: #000;
+}
+
+.thaipost-left p {
+    font-size: 10px;
+    color: #9DA3A7;
+}
+
+
+/* checkout right */
+#checkout .right {
+    width: 552px;
+    height: 547px;
+    background-color: #EDEFF4;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 4%;
+    padding: 2% 2.5%;
+    margin-left: 13%;
+}
+
+#checkout .right .first p {
+    font-size: 10px;
+    color: #9DA3A7;
+    width: 281px;
+}
+
+input[type=text], input[type="email"] {
+    padding: 1% 3%;
+    margin-top: 3%;
+    border-radius: 4px;
+    border: 0.5px solid #EDEFF4;
+    outline: none;
+}
+
+input[type=radio] {
+    margin: 0 0px 0 5px !important;
+}
+
+input::placeholder {
+    font-size: 12px;
+    border-radius: 4px;
+    border: none;
+    color: #7E8487;
+}
+
+input[type=text]:focus {
+    outline: 0.5px solid #000;
+}
+
+.cust-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.cust-name input {
+    width: 40%;
+}
+
+.address input {
+    width: 25%;
+}
+
+.display-total {
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.submit-btn {
+    width: 472px;
+    height: 50px;
+    background-color: #A3AB8B;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+i .fa-circle-info {
+   color: #7E8487 !important;
+}
